@@ -55,18 +55,19 @@ const SignUpForm = () => {
   return (
     <div className="signup-page-container">
       <div className="signup-content-container">
-        <div className="signup-left-content">
+          <div className="signup-left-content">
+          <h3>Welcome to the Cuvette Interview Management Platform</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a galley
+            Simplify hiring with our platform—schedule interviews, track candidates, and manage recruitment effortlessly.
+          </p>
+          <p>
+            Join now for seamless, secure, and efficient recruitment management.
           </p>
         </div>
         
         <div className="signup-form-container">
           <h2 className="signup-title">Sign Up</h2>
-          <p className="signup-subtitle">Lorem Ipsum is simply dummy text</p>
-          
+          <p className="signup-subtitle">Create your account to manage interviews effortlessly.</p>
           <form onSubmit={handleSubmit}>
             <div className="signup-input-container">
               <FaUser className="signup-input-icon" />
